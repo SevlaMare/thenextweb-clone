@@ -1,5 +1,26 @@
+/* RESET */
 * {
   margin: 0;
   padding: 0;
   border: 0;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* NAVBAR */
+nav {
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+  background: #333;
+}
+
+nav a {
+  padding: 20px;
+  line-height: 26px;
+  font-size: 0.8rem;
 }
