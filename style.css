@@ -69,6 +69,13 @@ nav {
   background-color: aquamarine;
 }
 
+.sticky {
+  position: sticky;
+  top: 0;
+}
+
+
+
 /* INTRO - GRID 1 (2x3) */
 .grid-1 {
   display: grid;
@@ -329,4 +336,34 @@ hr {
   .bg-orange {
     width: 100%;
   }
+}
+
+/* GRID 5 */
+.grid-5 {
+  display: grid;
+  grid-template: repeat(2, 220px) / repeat(4, 1fr); 
+  grid-gap: 70px;
+  margin: 20px;
+}
+
+.grid5-item img {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .grid-5 {
+    grid-template: repeat(8, 1fr) / 1fr;
+    grid-gap: 20px;
+  }
+  
+  .grid5-item img {
+    width: 100px;
+    float: left;
+  } 
+}
+
+@media (max-width: 400px) {
+  nav {
+    display: none;
+  } 
 }
