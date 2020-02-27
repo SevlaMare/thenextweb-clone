@@ -161,3 +161,45 @@ nav {
   color: #fff;
   background: #131313;
 }
+
+/* GRID 2 */
+.grid-2 {
+  display: grid;
+  grid-template: 200px 200px / 1fr 1fr 1fr 1fr;
+  grid-gap: 50px;
+  margin: 20px;
+}
+
+.grid-2 img {
+  width: 300px;
+  height: 150px;
+}
+
+@media (max-width: 768px) {
+  .grid-2 {
+    grid-template: repeat(8, 100px) / 1fr;
+    grid-gap: 0;
+  }
+
+  .grid2-item img {
+    float: left;
+    width: 100px;
+  }
+
+  .grid2-item {
+    margin-bottom: 20px;
+  }
+}
+
+/* GRID 3 */
+.grid-3 img {
+  width: 75px;
+}
+
+.grid3-background {
+  background-color: orange;
+}
+
+.grid3-background img {
+  float: left;
+}
