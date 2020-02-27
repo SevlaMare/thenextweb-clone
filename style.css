@@ -167,7 +167,7 @@ nav {
   display: grid;
   grid-template: 200px 200px / 1fr 1fr 1fr 1fr;
   grid-gap: 50px;
-  margin: 20px;
+  margin: 50px;
 }
 
 .grid-2 img {
@@ -189,17 +189,58 @@ nav {
   .grid2-item {
     margin-bottom: 20px;
   }
+
+  .grid-2 img {
+    height: auto;
+    margin-right: 15px;
+  }
 }
 
 /* GRID 3 */
+.grid-3 {
+  display: grid;
+  grid-template: 300px / repeat(4, 1fr);
+  grid-gap: 50px;
+  margin: 50px;
+}
+
 .grid-3 img {
   width: 75px;
 }
 
+.grid3-item {
+  background: #f8c25e;
+}
+
 .grid3-background {
+  height: 75px;
   background-color: orange;
 }
 
 .grid3-background img {
   float: left;
+}
+
+.grid-3 p {
+  margin: 20px;
+}
+
+.grid-3 small {
+  margin: 20px;
+}
+
+.grid3-background small {
+  margin: 10px;
+}
+
+hr {
+  border-top: solid 1px #333;
+  margin: 10px 0;
+}
+
+@media (max-width: 768px) {
+  .grid-3 {
+    grid-template: repeat(4, 220px) / 1fr;
+    grid-gap: 15px;
+  }
 }
