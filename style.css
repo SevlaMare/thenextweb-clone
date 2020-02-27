@@ -17,6 +17,17 @@ nav {
   background: #333;
 }
 
+.inner-txt a {
+  color: #fff;
+  font-weight: 900;
+  font-size: 1.2rem;
+}
+
+.grid-4 a {
+  color: #444;
+  text-decoration: none;
+}
+
 .nav-1 a {
   color: lightgray;
   text-decoration: none;
@@ -50,10 +61,6 @@ nav {
   background: #fd3;
   line-height: 30px;
   padding-left: 10px;
-}
-
-.nav-1 a:hover {
-  color: #fff;
 }
 
 .btn {
@@ -156,6 +163,10 @@ nav {
   text-decoration: none;
 }
 
+.nav-1 a:hover {
+  color: #fff;
+}
+
 .footer-end {
   text-align: center;
   color: #fff;
@@ -253,11 +264,6 @@ hr {
   margin: 50px;
 }
 
-.grid-4 a {
-  color: #444;
-  text-decoration: none;
-}
-
 .grid-4 li {
   list-style: circle;
 }
@@ -306,12 +312,21 @@ hr {
   font-size: 0.8rem;
 }
 
-.inner-txt a {
-  color: #fff;
-  font-weight: 900;
-  font-size: 1.2rem;
-}
-
 .inner-txt small {
   color: lightgray;
+}
+
+@media (max-width: 768px) {
+  .grid-4 {
+    grid-template: repeat(8, 1fr) / 1fr;
+    grid-gap: 15px;
+  }
+
+  .grid4-head img {
+    width: 90%;
+  }
+
+  .bg-orange {
+    width: 100%;
+  }
 }
