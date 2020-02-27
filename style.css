@@ -62,7 +62,7 @@ nav {
   background-color: aquamarine;
 }
 
-/* GRID 1 */
+/* INTRO - GRID 1 (2x3) */
 .grid-1 {
   display: grid;
   grid-template: 200px 200px / 1fr 1fr 1fr;
@@ -162,7 +162,7 @@ nav {
   background: #131313;
 }
 
-/* GRID 2 */
+/* LAST NEWS - GRID 2 (2x4) */
 .grid-2 {
   display: grid;
   grid-template: 200px 200px / 1fr 1fr 1fr 1fr;
@@ -196,7 +196,7 @@ nav {
   }
 }
 
-/* GRID 3 */
+/* LAST FUNDING - GRID 3 (1x4) */
 .grid-3 {
   display: grid;
   grid-template: 300px / repeat(4, 1fr);
@@ -243,4 +243,75 @@ hr {
     grid-template: repeat(4, 220px) / 1fr;
     grid-gap: 15px;
   }
+}
+
+/* APPS - GRID 4 (3x3) */
+.grid-4 {
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  grid-gap: 20px;
+  margin: 50px;
+}
+
+.grid-4 a {
+  color: #444;
+  text-decoration: none;
+}
+
+.grid-4 li {
+  list-style: circle;
+}
+
+.grid4-head img {
+  width: 370px;
+  height: 270px;
+  position: absolute;
+  z-index: -1;
+}
+
+.bg-orange {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  width: 340px;
+  padding: 15px;
+  background: #f5dbab;
+}
+
+.bg-orange img {
+  width: 95px;
+}
+
+.bg-orange p {
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.grid4-item ul {
+  margin-top: 15px;
+}
+
+.grid4-head p {
+  padding-top: 180px;
+}
+
+.inner-txt {
+  margin: 15px;
+}
+
+.inner-txt p {
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+
+.inner-txt a {
+  color: #fff;
+  font-weight: 900;
+  font-size: 1.2rem;
+}
+
+.inner-txt small {
+  color: lightgray;
 }
