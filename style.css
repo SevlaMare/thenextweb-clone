@@ -26,10 +26,6 @@ nav {
   font-size: 0.7rem;
 }
 
-.nav-1 a:hover {
-  color: #fff;
-}
-
 .icon {
   width: 20px;
 }
@@ -51,9 +47,13 @@ nav {
 }
 
 .nav-3 {
-  background: #FD3;
+  background: #fd3;
   line-height: 30px;
   padding-left: 10px;
+}
+
+.nav-1 a:hover {
+  color: #fff;
 }
 
 .btn {
@@ -68,7 +68,7 @@ nav {
   grid-template: 200px 200px / 1fr 1fr 1fr;
   grid-gap: 5px;
   width: 100%;
-  background: gray;
+  background: #fff;
 }
 
 .grid1-item-1 {
@@ -95,4 +95,35 @@ nav {
   background-repeat: no-repeat;
 }
 
+/* BREAK POINT TO TABLET */
+@media (max-width: 768px) {
+  .grid-1 {
+    display: grid;
+    grid-template: repeat(3, 100px) / 1fr;
+  }
 
+  .grid1-item-1 {
+    grid-row: 1/2;
+    grid-column: 1;
+    background-size: 100% auto;
+  }
+
+  .grid1-item-2 {
+    grid-row: 2/3;
+    grid-column: 1;
+    background-size: 100% auto;
+  }
+
+  .grid1-item-3 {
+    grid-row: 3/4;
+    grid-column: 1;
+    background-size: 100% auto;
+  }
+}
+
+/* BREAK POINT TO MOBILE */
+@media (max-width: 400px) {
+  * {
+    font-size: 1rem;
+  }
+}
