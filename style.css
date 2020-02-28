@@ -80,7 +80,7 @@ h2 {
   margin-bottom: -40px;
   font-size: 2rem;
   font-weight: 700;
-  color: #FF5C3F;
+  color: #ff5c3f;
 }
 
 /* INTRO - GRID 1 (2x3) */
@@ -373,7 +373,8 @@ hr {
 }
 
 @media (max-width: 600px) {
-  nav, .nav-1 {
+  nav,
+  .nav-1 {
     display: none !important;
   }
 }
