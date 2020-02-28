@@ -386,3 +386,36 @@ hr {
 .inner-title2 {
   margin: 0;
 }
+
+/* MOBILE NAVBAR */
+.nav-mob {
+  display: none;
+}
+
+.nav-mob-1 {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+  background: #fff;
+}
+
+.nav-mob-1 img {
+  width: 20px;
+  margin-right: 20px;
+}
+
+.nav-mob-2 {
+  text-align: center;
+  padding: 10px;
+  background: #fd3;
+}
+
+.nav-mob-2 p {
+  font-size: 0.6rem;
+}
+
+@media (max-width: 600px) {
+  .nav-mob {
+    display: initial;
+  }
+}
