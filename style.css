@@ -357,11 +357,11 @@ hr {
   .grid5-item img {
     width: 100px;
     float: left;
-  } 
+  }
 }
 
 @media (max-width: 400px) {
   nav {
     display: none;
-  } 
+  }
 }
