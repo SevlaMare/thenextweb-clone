@@ -298,8 +298,8 @@ h2 {
   h2 {
     margin-top: 45px;
   }
-  
-  .grid2-item img{
+
+  .grid2-item img {
     width: 200px;
     height: 120px;
   }
@@ -469,7 +469,6 @@ hr {
     width: 100%;
   }
 }
-
 
 @media (max-width: 1024px) {
   .grid-4 {
