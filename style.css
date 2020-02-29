@@ -64,6 +64,12 @@ nav {
   }
 }
 
+@media (max-width: 1024px) {
+  .nav-2-etc {
+    display: none;
+  }
+}
+
 .nav-3 {
   background: #fd3;
   line-height: 30px;
@@ -281,6 +287,32 @@ h2 {
   }
 }
 
+/* 11" SCREEN BREAK POINT */
+@media (max-width: 1024px) {
+  .grid-2 {
+    grid-template: 200px 200px / repeat(4, 1fr);
+    grid-gap: 35px;
+    margin: 50px 20px;
+  }
+
+  h2 {
+    margin-top: 45px;
+  }
+  
+  .grid2-item img{
+    width: 200px;
+    height: 120px;
+  }
+
+  .grid2-item h3 {
+    font-size: 0.8rem;
+  }
+
+  .grid2-item small {
+    font-size: 0.6rem;
+  }
+}
+
 /* LAST FUNDING - GRID 3 (1x4) */
 .grid-3 {
   display: grid;
@@ -338,6 +370,14 @@ hr {
   }
 }
 
+@media (max-width: 1024px) {
+  .grid-3 {
+    grid-template: repeat(2, 250px) / repeat(3, 1fr);
+    grid-gap: 10px;
+    margin: 50px 20px;
+  }
+}
+
 /* APPS - GRID 4 (3x3) */
 .grid-4 {
   display: grid;
@@ -347,7 +387,8 @@ hr {
 }
 
 .grid-4 li {
-  list-style: circle;
+  list-style: circle solid;
+  width: 370px;
 }
 
 .grid4-head img {
@@ -429,12 +470,34 @@ hr {
   }
 }
 
+
+@media (max-width: 1024px) {
+  .grid-4 {
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    grid-gap: 10px;
+    margin: 20px;
+  }
+
+  .grid4-head img {
+    width: 300px;
+    height: 200px;
+  }
+
+  .grid-4 li {
+    width: 300px;
+  }
+
+  .bg-orange {
+    width: 270px;
+  }
+}
+
 /* GRID 5 */
 .grid-5 {
   display: grid;
   grid-template: repeat(2, 220px) / repeat(4, 1fr);
   grid-gap: 70px;
-  margin: 50px;
+  margin: 80px 50px;
 }
 
 .grid5-item img {
