@@ -52,9 +52,15 @@ nav {
   color: gray;
   margin-right: 10px;
   margin-left: 10px;
-  font-size: 0.8rem;
-  line-height: 48px;
+  font-size: 0.6rem;
+  line-height: 30px;
   font-weight: 600;
+}
+
+.mini-logo {
+  width: 60px;
+  height: 37px;
+  margin-bottom: -12px;
 }
 
 .nav-3 {
@@ -392,11 +398,6 @@ h2 {
     margin-right: 10px;
   }
 
-  .inner-title2 {
-    margin: 100px 0 20px 20px;
-    color: #ff5c3f;
-  }
-
   .footer-end {
     display: none;
   }
@@ -426,15 +427,12 @@ h2 {
     margin-left: 10px;
   }
 
-  .bg-orange {
-    width: 300px;
-  }  
-
   .inner-title2 {
     margin: 0;
   }
 
   .bg-orange {
+    width: 300px;
     padding: 0;
   }
 
@@ -451,10 +449,6 @@ h2 {
   .grid5-item img {
     width: 100px;
     float: left;
-    margin-right: 10px;
-  }
-
-  .grid5-item img {
     margin-right: 10px;
   }
 }
