@@ -350,6 +350,10 @@ h2 {
 
 /* SMARTPHONE BREAKPOINT */
 @media (max-width: 411px) {
+  .cover-logo {
+    display: none;
+  }
+
   .nav-1,
   .nav-2 {
     display: none;
@@ -455,6 +459,10 @@ h2 {
 
 /* TABLET BREAKPOINT */
 @media (max-width: 768px) and (min-width: 600px) {
+  .cover-logo {
+    display: none;
+  }
+
   .nav-2 {
     display: inline;
     overflow: hidden;
