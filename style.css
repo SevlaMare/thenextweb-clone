@@ -144,6 +144,21 @@ nav {
   font-size: 1.6rem;
 }
 
+/*
+.cover-gradient {
+ background: transparent url(images/cover-gradient.png) no-repeat;
+ 
+}
+*/
+
+/*
+.cover-logo {
+  background-size: contain;
+  height: 96px;
+  color: black;
+}
+/*
+
 /* FOOTER */
 .media-icon {
   width: 20px;
