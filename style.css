@@ -1,11 +1,20 @@
 * {
-  margin: 0px;
-  padding: 0px;
-  border: 0px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+a {
+  text-decoration: none;
 }
 
 /* --- SMARTPHONE --- */
+
 /* NAVBAR */
+.nav-tablet {
+  display: none;
+}
+
 .flex {
   display: flex;
   justify-content: space-between;
@@ -32,10 +41,55 @@
 
 /* --- TABLET --- */
 @media (min-width: 768px) {
+  #nav-mob-1 {
+    display: none;
+  }
 
+  .nav-tablet-1 {
+    padding: 0 20px;
+    background: #131313;
+  }
+
+  .nav-tablet-1 a {
+    font-size: 0.75rem;
+    margin: 0 5px;
+    line-height: 28px;
+    color: #808080;
+  }
+
+  .nav-table-2 {
+    font-size: 0.9rem;
+    line-height: 52px;
+    padding-left: 20px;
+    background: #fff;
+  }
+
+  .nav-table-2 a {
+    color: #808080;
+    margin-right: 20px;
+  }
+
+  #logo-tablet {
+    float: left;
+  }
+
+  .icon-search {
+    width: 20px;
+    margin-right: 20px;
+  }
+
+  .nav-spam p {
+    text-align: left;
+  }
+
+  .nav-spam {
+    padding-left: 125px;
+  }
 }
 
 /* --- LAPTOP --- */
 @media (min-width: 1024px) {
-
+  * {
+    margin:0;
+  }
 }
