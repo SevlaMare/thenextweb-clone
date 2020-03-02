@@ -9,16 +9,11 @@ a {
 }
 
 /* --- SMARTPHONE --- */
+#tablet-nav {
+  display: none;
+}
 
 /* NAVBAR */
-.tablet-nav {
-  display: none;
-}
-
-.nav-tablet-2 {
-  display: none;
-}
-
 .flex {
   display: flex;
   justify-content: space-between;
@@ -45,8 +40,12 @@ a {
 
 /* --- TABLET --- */
 @media (min-width: 768px) and (max-width: 1023px) {
-  #nav-mob-1 {
+  #smartphone-nav {
     display: none;
+  }
+
+  #tablet-nav {
+    display: initial;
   }
 
   .nav-tablet-1 {
@@ -93,7 +92,11 @@ a {
 
 /* --- LAPTOP --- */
 @media (min-width: 1024px) {
-  .tablet-nav {
+  #smartphone-nav {
+    display: none;
+  }
+  
+  #tablet-nav {
     display: none;
   }
 }
