@@ -9,7 +9,8 @@ a {
 }
 
 /* --- SMARTPHONE --- */
-#tablet-nav {
+#tablet-nav, 
+#laptop-nav {
   display: none;
 }
 
@@ -18,7 +19,6 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #fff;
 }
 
 .icon-nav {
@@ -92,11 +92,71 @@ a {
 
 /* --- LAPTOP --- */
 @media (min-width: 1024px) {
-  #smartphone-nav {
-    display: none;
-  }
-  
+  /* NAVBAR */
+  #smartphone-nav,
   #tablet-nav {
     display: none;
   }
+
+  #laptop-nav {
+    display: initial;
+  }
+
+  .icon-se {
+    width: 12px;
+    padding-right: 25px;
+  }
+
+  .nav-black {
+    padding: 0 20px;
+    background: #131313;
+  }
+
+  .nav-black a {
+    color: #808080;
+    line-height: 28px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+
+  .nav-black a:last-child {
+    margin-right: 0;
+  }
+
+  .nav-white {
+    padding-left: 20px;
+    line-height: 46px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    background: #fff;
+  }
+
+  .nav-white a {
+    margin-right: 15px;
+    color: #808080;
+  }
+
+  .btn {
+    color: #fff !important;
+    padding: 8px;
+    border-radius: 3px;
+    font-size: 0.6rem;
+    font-weight: 700;
+    margin-left: 10px;
+    background: #0cc;
+  }
+
+  #red {
+    color: red;
+    margin: 0;
+    font-size: 1.4rem;
+  }
+
+  .nav-spam {
+    line-height: 32px;
+    text-align: left;
+    padding-left: 20px;
+  }
+
 }
