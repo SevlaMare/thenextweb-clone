@@ -11,7 +11,11 @@ a {
 /* --- SMARTPHONE --- */
 
 /* NAVBAR */
-.nav-tablet {
+.tablet-nav {
+  display: none;
+}
+
+.nav-tablet-2 {
   display: none;
 }
 
@@ -40,7 +44,7 @@ a {
 }
 
 /* --- TABLET --- */
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   #nav-mob-1 {
     display: none;
   }
@@ -89,7 +93,7 @@ a {
 
 /* --- LAPTOP --- */
 @media (min-width: 1024px) {
-  * {
-    margin:0;
+  .tablet-nav {
+    display: none;
   }
 }
