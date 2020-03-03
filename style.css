@@ -276,15 +276,15 @@ a {
   margin-bottom: 15px;
 }
 
-.grid4-item li a {
-  color: #333;
-}
-
 .footer-links a {
   margin-right: 5px;
   font-size: small;
   color: lightgray;
   text-decoration: none;
+}
+
+.grid4-item li a {
+  color: #333;
 }
 
 /* GRID 5 (8x1) */
