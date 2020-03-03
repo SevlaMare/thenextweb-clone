@@ -280,6 +280,13 @@ a {
   color: #333;
 }
 
+.footer-links a {
+  margin-right: 5px;
+  font-size: small;
+  color: lightgray;
+  text-decoration: none;
+}
+
 /* GRID 5 (8x1) */
 .grid-5 {
   display: grid;
@@ -319,13 +326,6 @@ a {
   padding-top: 15px;
   font-size: 0.8rem;
   background: #131313;
-}
-
-.footer-links a {
-  margin-right: 5px;
-  font-size: small;
-  color: lightgray;
-  text-decoration: none;
 }
 
 .footer-end {
@@ -597,6 +597,7 @@ a {
   /* GRID 2 */
   .title-section {
     padding: 20px;
+    margin-left: 15%;
   }
 
   .grid-2 {
