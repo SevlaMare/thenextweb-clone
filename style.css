@@ -597,8 +597,9 @@ a {
 
   /* GRID 2 */
   .title-section {
+    width: 984px;
+    margin: 0 auto;
     padding: 20px;
-    margin-left: 15%;
   }
 
   .grid-2 {
