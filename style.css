@@ -11,7 +11,8 @@ a {
 /* --- SMARTPHONE --- */
 #tablet-nav,
 #laptop-nav,
-#cover-logo {
+#cover-logo,
+#item4 {
   display: none;
 }
 
@@ -656,6 +657,10 @@ a {
 /* --- LAPTOP 14 --- */
 @media (min-width: 1280px) {
   .nav-white-spam {
+    display: initial;
+  }
+
+  #item4 {
     display: initial;
   }
 
