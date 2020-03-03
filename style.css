@@ -33,6 +33,8 @@ a {
 }
 
 .nav-spam {
+  position: sticky;
+  top: 48px;
   text-align: center;
   line-height: 56px;
   font-size: 0.8rem;
@@ -43,11 +45,6 @@ a {
   position: sticky !important;
   top: 0;
   background-color: white;
-}
-
-.nav-spam {
-  position: sticky;
-  top: 48px;
 }
 
 /* ------ GRID 1 (3x1) ------ */
