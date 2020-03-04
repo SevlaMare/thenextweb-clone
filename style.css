@@ -521,6 +521,10 @@ a {
     color: #808080;
   }
 
+  .g3-menu a {
+    display: initial;
+  }
+
   .nav-black a:last-child {
     margin-right: 0;
   }
@@ -640,10 +644,6 @@ a {
     grid-gap: 20px;
     width: 984px;
     margin: 0 auto;
-  }
-
-  .g3-menu a {
-    display: initial;
   }
 
   /* GRID 4 (3x3) */
