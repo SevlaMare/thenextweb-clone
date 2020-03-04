@@ -193,6 +193,13 @@ a {
   margin-left: 15px;
 }
 
+.g3-menu a {
+  display: flex;
+  color: #fd4a2b;
+  line-height: 26px;
+  margin-left: 20px;
+}
+
 /* --------- GRID 4 (8x1) -------- */
 .grid-4 {
   display: grid;
@@ -633,6 +640,10 @@ a {
     grid-gap: 20px;
     width: 984px;
     margin: 0 auto;
+  }
+
+  .g3-menu a {
+    display: initial;
   }
 
   /* GRID 4 (3x3) */
