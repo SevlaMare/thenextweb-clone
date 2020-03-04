@@ -291,6 +291,11 @@ a {
   text-decoration: none;
 }
 
+.g5-menu a {
+  color: #fd4a2b;
+  margin-left: 20px;
+}
+
 .grid4-item li a {
   color: #333;
 }
@@ -308,11 +313,6 @@ a {
   height: 80px;
   margin-bottom: 15px;
   margin-right: 10px;
-}
-
-.g5-menu a {
-  color: #fd4a2b;
-  margin-left: 20px;
 }
 
 /* FOOTER */
