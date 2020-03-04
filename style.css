@@ -310,6 +310,11 @@ a {
   margin-right: 10px;
 }
 
+.g5-menu a {
+  color: #fd4a2b;
+  margin-left: 20px;
+}
+
 /* FOOTER */
 .media-icon {
   width: 20px;
@@ -678,6 +683,11 @@ a {
 
   .grid-3 {
     grid-template: 1fr / repeat(4, 1fr);
+  }
+
+  .g3-menu {
+    width: 984px;
+    margin: 0 auto;
   }
 
   /* GRID 4 (4x2) */
